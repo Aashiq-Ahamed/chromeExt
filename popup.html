@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Extractor</title>
+    <style>
+        body {
+            width: 400px;
+            height: 500px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 18px;
+        }
+
+        button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        textarea {
+            width: 100%;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Text Extractor</h1>
+    <button id="extractBtn">Extract Text</button>
+    <textarea id="output" readonly></textarea>
+    <script src="popup.js"></script>
+</body>
+
+</html>
